@@ -1,0 +1,244 @@
+body{
+  font-family: 'Lobster', cursive;
+font-family: 'Poppins', sans-serif;
+font-weight: bold;
+}
+
+/* ====================================================
+                           ~ Hero section ~
+         ================================================ */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+#hero {
+  padding: 30px 0;
+}
+
+#hero h1 {
+  color: #333333;
+  font-size: 60px;
+  /* line-height: 80px; */
+  border-left: 5px solid;
+  border-image: linear-gradient(lightSalmon, #ff5959);
+  border-image-slice: 1;
+  padding-left: 5px;
+}
+
+#hero p {
+}
+
+.hero_text {
+  line-height: 1.8;
+  color: #3e3e3e;
+  margin: 20px 0;
+}
+
+.btn {
+  padding: 10px 16px;
+  background: #ff5959;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 10px 0;
+  display: inline-block;
+}
+
+.section_container {
+  display: flex;
+  align-items: center;
+}
+
+.section_container img {
+  width: 100%;
+}
+
+.left_side,
+.right_side {
+  width: 50%;
+  padding: 0 10%;
+}
+
+/* ====================================================
+                           ~ My mission section ~
+         ================================================ */
+#my_mission {
+  padding: 0px 0 100px;
+}
+
+#my_mission h1 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 70px;
+}
+
+.orange {
+  color: #ffad5a;
+}
+
+.container-div {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  padding: 50px 0;
+}
+
+.container-div .inner {
+  border-radius: 10px;
+  width: 30%;
+  padding: 30px 20px;
+}
+
+.container-div .inner img {
+  width: 100px;
+  height: 100px;
+}
+
+.first_item {
+  background: #ffeeee;
+}
+
+.second_item {
+  background: #f0fff0;
+}
+
+.third_item {
+  background: #fbeeff;
+}
+
+/* ====================================================
+                 ~ Blog  section ~
+  ================================================ */
+#blog_section {
+  
+}
+#blog_section .row {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+#blog_section .row .blog_col {
+  width: 60%;
+}
+#blog_section .row .blog_col h1 {
+  margin: 15px 0; 
+  font-size: 45px;
+  font-weight: 700;
+}
+#blog_section .row .blog_col p {
+  margin: 25px 0;
+}
+#blog_section .row .img_col {
+  width: 40%;
+}
+#blog_section .row .img_col img {
+  width: 80%;
+}
+.padding_right {
+  padding-right: 100px;
+  text-align: justify;
+} 
+
+
+/* ====================================================
+                 ~ Contact ~
+  ================================================ */
+
+#contact {
+  padding: 0px 0 100px;
+}
+#contact h1 {
+  text-align: center;
+  font-size: 48px;
+
+}
+#contact p{
+  text-align: center;
+  margin-bottom: 30px;
+}
+#contact .contact_container {
+  width: 650px;
+  margin: auto;
+}
+#contact .contact_container .top {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2px;
+}
+#contact .contact_container .top div {
+  padding: 0px 15px;
+  background-color: #130f40;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center; 
+  color: #fff;
+  border-radius: 10px;
+  /* flex-grow: 1; */
+  flex-basis: 30%;
+  
+  
+} 
+.fa{
+  margin-top: 30px;
+  margin-bottom: 5px;
+  font-size: 25px;
+  
+}
+/* contact */
+
+.contact_form{
+  background-color: #fbeeff;
+  padding: 30px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+.contact_form .form_group{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.contact_form .form_group input{
+  border: none;
+  height: 40px;
+  outline: none;
+  padding: 20px;
+  border-radius: 3px;
+  margin-top: 4px;
+} 
+.contact_form .form_group textarea{
+  width: 100%;
+  height: 150px;
+  resize: none;
+  border: none;
+  border-radius: 3px; 
+  outline: 0;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+/* ====================================================
+                 ~ Footer section ~
+  ================================================ */
+footer {
+  padding: 50px 0;
+  background: #000;
+  text-align: center;
+  color: #fff;
+}
+
+footer h1 {
+  font-family: "Lobster", cursive;
+  margin-bottom: 20px;
+}
+
+footer h1 span {
+  color: #ff5959;
+}
